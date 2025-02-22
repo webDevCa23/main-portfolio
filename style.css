@@ -397,6 +397,27 @@ footer ul {
     transition: left 0.3s ease-in-out;
   }
 
+     .backdrop {
+       position: fixed;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+       background: rgba(0, 0, 0, 0.5);
+       display: none;
+       z-index: 1;
+     }
+  
+     .nav-links.show+.backdrop {
+       display: block;
+     }
+
+  #contact form {
+    width: 90%;
+    max-width: 350px;
+    padding: 20px;
+    margin: 0 auto;
+  }
 
   .nav-links.show {
     left: 0;
