@@ -642,19 +642,20 @@ footer ul {
     width: 100%;
   }
 
-  /* Project Buttons - Mobile Fix */
   .proj-btn-container {
     display: flex;
     flex-direction: column;
-    /* Stack buttons on small screens */
     align-items: center;
     gap: 10px;
     width: 100%;
   }
 
+  .project-card {
+    height: 550px;
+  }
+
   .proj-btn-container button {
     width: 90%;
-    /* Adjust width for better mobile fit */
     max-width: 250px;
     padding: 12px;
     font-size: 1.1rem;
