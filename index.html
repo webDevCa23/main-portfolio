@@ -13,63 +13,77 @@
 </head>
 
 <body>
-<!-- Navigation -->
-<nav aria-label="Main Navigation">
-  <div class="hamburger" aria-label="Menu Button">
-    <div></div>
-    <div></div>
-    <div></div>
-  </div>
-  <ul class="nav-links">
-    <li><a href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
-    <li><a href="#about"><i class="fa-solid fa-circle-info"></i> About</a></li>
-    <li><a href="#projects"><i class="fa-solid fa-code"></i> Projects</a></li>
-    <li><a href="#contact"><i class="fa-solid fa-address-book"></i> Contact</a> </li>
-  </ul>
-  <a href="./Resume/CS_Resume.pdf" download="Carlos_Arias_Resume.pdf">
-    <button id="resume-btn"><i class="fa-solid fa-download"></i> Resume</button>
-  </a>
-</nav>
+  <!-- Navigation -->
+  <nav aria-label="Main Navigation">
+    <div class="hamburger" aria-label="Menu Button">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
+      <li><a href="#about"><i class="fa-solid fa-circle-info"></i> About</a></li>
+      <li><a href="#projects"><i class="fa-solid fa-code"></i> Projects</a></li>
+      <li><a href="#contact"><i class="fa-solid fa-address-book"></i> Contact</a> </li>
+    </ul>
+    <a href="./Resume/CS_Resume.pdf" download="Carlos_Arias_Resume.pdf">
+      <button id="resume-btn"><i class="fa-solid fa-download"></i> Resume</button>
+    </a>
+  </nav>
 
 
   <!-- Header -->
-<header id="home">
-  <div id="cta-cont-btns">
-    <h1>Carlos | Front End Web Developer</h1>
-    <p>I'm a Web Developer passionate about creating seamless user experiences.</p>
+  <header id="home">
+    <div id="cta-cont-btns">
+      <h1>Carlos | Front End Web Developer</h1>
+      <p>I'm a Web Developer passionate about creating seamless user experiences.</p>
 
-    <div class="cta-btn-container"> <!-- New div to align buttons -->
-      <button onclick="location.href='#projects'" class="cta-button">Check out my projects</button>
-      <button onclick="location.href='#contact'" class="cta-button">Get in Touch</button>
+      <div class="cta-btn-container"> <!-- New div to align buttons -->
+        <button onclick="location.href='#projects'" class="cta-button">Check out my projects</button>
+        <button onclick="location.href='#contact'" class="cta-button">Get in Touch</button>
+      </div>
     </div>
-  </div>
-</header>
+  </header>
 
 
-<!-- About Section -->
-<section id="about">
-  <h2>What I Do</h2>
-  <div class="about-container">
-    <div class="about-text">
-      <p>
-        I'm a passionate Front-End Web Developer focused on building responsive and user-friendly websites.
-        I specialize in creating intuitive interfaces and seamless user experiences using modern web technologies.
-      </p>
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-container">
+      <div class="about-text">
+        <p>
+          Hey there! I'm a passionate <strong>Front-End Web Developer</strong> who loves crafting clean, responsive, and
+          user-friendly websites.
+          With a strong eye for design and an obsession with performance, I aim to build web experiences that are both
+          beautiful and functional.
+        </p>
+        <p>
+          I specialize in **modern web technologies** to create seamless interfaces that bring ideas to life. Whether
+          it’s
+          a sleek landing page or a complex web app, I focus on **writing efficient code, optimizing performance, and
+          enhancing user experience**.
+        </p>
+        <p>
+          When I'm not coding, you can find me exploring new frameworks, refining my skills, or brainstorming the next
+          cool project. I'm always looking to learn, collaborate, and push the boundaries of web development!
+        </p>
+      </div>
+
+      <div class="about-skills">
+        <h3>Skills & Technologies</h3>
+        <ul class="skills-list">
+          <li><i class="fa-brands fa-html5"></i> HTML5</li>
+          <li><i class="fa-brands fa-css3-alt"></i> CSS3 (Flexbox, Grid, Animations)</li>
+          <li><i class="fa-brands fa-js"></i> JavaScript (ES6+)</li>
+          <li><i class="fa-brands fa-react"></i> React.js</li>
+          <li><i class="fa-brands fa-git-alt"></i> Git & GitHub</li>
+          <li><i class="fa-solid fa-mobile-screen"></i> Responsive & Mobile-First Design</li>
+          <li><i class="fa-solid fa-rocket"></i> Performance Optimization</li>
+          <li><i class="fa-solid fa-code"></i> Clean & Maintainable Code</li>
+        </ul>
+      </div>
     </div>
-
-    <div class="about-skills">
-      <h3>Skills & Technologies</h3>
-      <ul class="skills-list">
-        <li><i class="fa-brands fa-html5"></i> HTML5</li>
-        <li><i class="fa-brands fa-css3-alt"></i> CSS3</li>
-        <li><i class="fa-brands fa-js"></i> JavaScript (ES6+)</li>
-        <li><i class="fa-brands fa-react"></i> React.js</li>
-        <li><i class="fa-brands fa-git-alt"></i> Git & GitHub</li>
-        <li><i class="fa-solid fa-mobile-screen"></i> Responsive Design</li>
-      </ul>
-    </div>
-  </div>
-</section>
+  </section>
 
 
   <!-- Projects Section -->
@@ -78,10 +92,12 @@
     <div class="project-card">
       <img src="./images/expense-tracker.png" alt="Expense Tracker" loading="lazy">
       <h3>Expense Tracker</h3>
-      <p>A simple yet effective method to stay ahead of your expenses.</p>
+      <p>A way to stay ahead of your expenses.</p>
       <div class="proj-btn-container">
-        <button class="live"><a href="https://webdevca23.github.io/Expense-Tracker/" target="_blank">LIVE PROJECT</a></button>
-        <button class="gitHub"><a href="#">GITHUB</a></button>
+        <button class="live"><a href="https://webdevca23.github.io/Expense-Tracker/" target="_blank">LIVE
+            PROJECT</a></button>
+        <button class="gitHub"><a href="https://github.com/webDevCa23/Expense-Tracker.git"
+            target="_blank">GITHUB</a></button>
       </div>
     </div>
     <div class="project-card">
@@ -89,28 +105,23 @@
       <h3>landing Page</h3>
       <p>Landing page</p>
       <div class="proj-btn-container">
-        <button class="live"><a href="https://webdevca23.github.io/Landing-page/" target="_blank">LIVE PROJECT</a></button>
-        <button class="gitHub"><a href="#">GITHUB</a></button>
+        <button class="live"><a href="https://webdevca23.github.io/Landing-page/" target="_blank">LIVE
+            PROJECT</a></button>
+        <button class="gitHub"><a href="https://github.com/webDevCa23/Landing-page.git"
+            target="_blank">GITHUB</a></button>
       </div>
     </div>
     <div class="project-card">
-      <img src="./images/todo-app.png" alt="To-Do App" loading="lazy">
-      <h3>To-Do App</h3>
-      <p>A simple task manager built with JavaScript.</p>
+      <img src="./images/habit-tracker.png" alt="Habit Tracker" loading="lazy">
+      <h3>Habit Tracker</h3>
+      <p>Helps users keep track of errands</p>
       <div class="proj-btn-container">
-        <button class="live"><a href="https://webdevca23.github.io/Landing-page/" target="_blank">LIVE PROJECT</a></button>
-        <button class="gitHub"><a href="#">GITHUB</a></button>
+        <button class="live"><a href="https://webdevca23.github.io/Habit-Tracker/" target="_blank">LIVE
+            PROJECT</a></button>
+        <button class="gitHub"><a href="https://github.com/webDevCa23/Habit-Tracker.git"
+            target="_blank">GITHUB</a></button>
       </div>
     </div>
-      <div class="project-card">
-        <img src="./images/weather-app.png" alt="Weather App" loading="lazy">
-        <h3>Weather App</h3>
-        <p>Check the weather in real-time using OpenWeather API.</p>
-        <div class="proj-btn-container">
-          <button class="live"><a href="https://webdevca23.github.io/Landing-page/" target="_blank">LIVE PROJECT</a></button>
-          <button class="gitHub"><a href="#">GITHUB</a></button>
-        </div>
-      </div>
   </section>
 
   <!-- Contact Section -->
@@ -132,16 +143,16 @@
     </form>
   </section>
 
-<!-- Footer -->
-<footer>
-  <a href="#top" class="back-to-top">Back to Top</a>
-  <div class="footer-links">
-    <a href="#about">About</a> |
-    <a href="#projects">Projects</a> |
-    <a href="#contact">Contact</a>
-  </div>
-  <p>&copy; 2025 Carlos Arias. All Rights Reserved.</p>
-</footer>
+  <!-- Footer -->
+  <footer>
+    <a href="#top" class="back-to-top">Back to Top</a>
+    <div class="footer-links">
+      <a href="#about">About</a> |
+      <a href="#projects">Projects</a> |
+      <a href="#contact">Contact</a>
+    </div>
+    <p>&copy; 2025 Carlos Arias. All Rights Reserved.</p>
+  </footer>
 
 
 
