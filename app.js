@@ -22,3 +22,11 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+const form = document.querySelector("#contactForm");
+
+form.addEventListener("submit", (e) => {
+  setTimeout(() => {
+    form.reset();
+  }, 1000);
+});

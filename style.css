@@ -503,6 +503,14 @@ footer ul {
 }
 
 /*Small Screens*/
+@media (hover: none) {
+
+  .live:hover,
+  .gitHub:hover {
+    transform: none;
+  }
+}
+
 @media (max-width: 480px) {
   .proj-btn-container {
     flex-direction: column;
